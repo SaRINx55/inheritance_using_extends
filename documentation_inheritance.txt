@@ -1,0 +1,10 @@
+what is inheritance?
+   consider a situation where A has designed a calculator program Casio comprising of a method add(). the client is wery happy with the program. Now, the client wants an additional function Subtract() in the program. there are two ways to overcome this task. 
+   method 1:
+   create another class containing all the methods. 
+   method 2:
+   create another class containing the required method, linked to the original class.
+   
+   we can see that method 2 is better than method 1 because
+     1. There is no redundancy. in method 1, the method add is repeated unnecessarily. why write 1000 lines of code when you can write just 50;)
+     2. on large scale, one class comprises of a number of methods. hence, to save time, resources, funding, just use inheritance.
